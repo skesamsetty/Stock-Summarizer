@@ -19,12 +19,12 @@ To use vbs code, refer below recommendations.
         Assign macros “SummarizeStocks” and “ResetCurrentSheet” to each button.
 
 Important subroutines for stock summary
-    -	SummarizeAllStockSheets – subroutine helps summarize the stock data in all worksheets of the spreadsheet.
-    -	SummarizeStocks –subroutine helps summarize stock data from only one active worksheet.
-    -	ResetAllSheets – Clears all the columns that got added as part of overall summary in all the worksheets of the workbook.
-    -	ResetCurrentSheet – clears additional columns added as part of SummarizeStocks in the current sheet.
+    *	SummarizeAllStockSheets – subroutine helps summarize the stock data in all worksheets of the spreadsheet.
+    *	SummarizeStocks –subroutine helps summarize stock data from only one active worksheet.
+    *	ResetAllSheets – Clears all the columns that got added as part of overall summary in all the worksheets of the workbook.
+    *	ResetCurrentSheet – clears additional columns added as part of SummarizeStocks in the current sheet.
 
 # Assumptions:
-    1.	All stock details associated with a Ticker are grouped together into single worksheet.
-    2.	Each worksheet has data for only one financial year.
+    1.	Each worksheet has data for only one financial year.
+    2.  Stock details associated with a Ticker are grouped together into single worksheet.
     3.	Ticker details are sorted by the date in ascending order.
