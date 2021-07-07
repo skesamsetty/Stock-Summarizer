@@ -10,6 +10,7 @@ To use the workbook for generating stock summary.
     Option#2 - Individual stock sheets have 2 buttons to summarize the single active worksheet and/or to clear the worksheet.
 
 To use vbs code, refer below recommendations.
+
     1.	Create a common worksheet with name “Control Sheet” and add buttons.
         Assign macros “SummarizeAllStockSheets” and “ResetAllSheets” to each button.
 
