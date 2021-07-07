@@ -4,10 +4,11 @@ Stock Summarizer using VBA
 # User Instructions:
 
 To use the workbook for generating stock summary; 2 options - 
-    1. Through the worksheet “Control Sheet” – First worksheet of the workbook. 
+
+    1.  Through the worksheet “Control Sheet” – First worksheet of the workbook. 
         -	Button “Summarize the stocks” – on click of this button, all the sheets in the workbook would be summarized into corresponding worksheet.
         -	Button “Reset to Originals” – on click of this button, the new column details added to each stock sheet as part of summary would be cleared.
-    2. Individual stock sheets have 2 buttons to summarize the single active worksheet and/or to clear the worksheet.
+    2.  Individual stock sheets have 2 buttons to summarize the single active worksheet and/or to clear the worksheet.
 
 To use vbs code, refer below recommendations.
 
